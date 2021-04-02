@@ -1,0 +1,8 @@
+<h2 class="titulo">Crear cuenta</h2>
+<div class="form">
+    <input type="text" placeholder="Usuario" name="usuario" [(ngModel)]="usuarioIngresado"/>
+    <input type="text" placeholder="Email" name="email" [(ngModel)]="emailIngresado"/>
+    <input type="password" placeholder="Clave" name="clave" [(ngModel)]="claveIngresada"/>
+    <button (click)="RegistrarUsuario()">Crear</button>
+    <button (click)="IrALogin()">Volver</button>
+</div>
